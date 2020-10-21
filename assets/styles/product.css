@@ -84,7 +84,7 @@ body {
     min-height: 100%;
   }
   
-  .product-img-2 
+  .product-img-2 {
     background-image: url('assets/images/products/banner_ebony.png');
     min-height: 400px;
   }
