@@ -54,7 +54,16 @@ body {
 .banner-title {
     font-size: 40px;
     font-weight: 600;
-    margin-top: 100px;
+    margin-top: 60px;
+    font-family: 'PT Serif', serif;
+}
+
+@media only screen and (max-width: 768px) {
+    #banner .col-md-6 {
+        padding: 20px;
+    }
+
+
 }
 
 #banner a {
@@ -83,25 +92,41 @@ body {
 #whatwedo h3 {
     color: #124387;
     padding:5px;
+    font-family: 'PT Serif', serif;
 }
 
 #whatwedo h2 {
     color: #124387;
     padding:10px;
+    font-family: 'PT Serif', serif;
 }
 
 #products {
     text-align: center;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    #products {
+        text-align: center;
+        padding: 10px;
+    }  
 }
 
 #products h2 {
     color: #124387;
-    padding:5px;
+    padding:15px;
 }
 
 #products .btn {
     color: white;
     background-color: #124387;
+}
+
+@media only screen and (max-width: 768px) {
+#products .col-md-4 {
+    padding-bottom: 20px;
+}
 }
 
 /* footer */
