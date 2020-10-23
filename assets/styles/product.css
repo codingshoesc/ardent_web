@@ -94,22 +94,13 @@ body {
     min-height: 400px;
   }
 
-  /* Products */
-
-  /* #products {
-    padding: 20px;
-    display: flex;
-    flex-flow: row;
-    
-  } */
-
   .product-page {
     padding: 30px 0px;
   }
 
   @media only screen and (max-device-width: 600px) {
     .product-page {
-      padding: 20px 60px;
+      padding: 20px 0px;
     }
 
   }
@@ -123,15 +114,6 @@ body {
     justify-content: center;
     padding: 3rem 7rem;
   }
-
-  /* @media only screen and (max-device-width: 600px) {
-    .products {
-      display: flex;
-      flex-direction: column;
-      
-    }
-
-  } */
 
 
    @media only screen and (max-device-width: 600px) {
@@ -150,7 +132,7 @@ body {
       display: flex;
       flex-direction: row;
       justify-content: center;
-      padding: 1rem 0rem;
+      padding: 3rem 0rem;
     }
   
   }
@@ -162,29 +144,10 @@ body {
 
   @media only screen and (max-device-width: 600px) {
     .product {
-      padding-bottom: 40px;  
-      padding-left: 0px;
-
+      padding:0rem 4rem 4rem 4rem;  
+  
   }
 }
-
-  /* @media only screen and (min-width: 600px) {
-    .products {
-      padding: 20px;
-      display: flex;
-      flex-direction: row;
-      
-    }
-
-  } */
-
-  /* @media only screen and (max-width: 600px) {
-    #products {
-      display: flex;
-      flex-flow: column;
-    }
-
-  } */
 
   
 
@@ -197,32 +160,7 @@ body {
     font-family: arial;
     
   }
-
-  /* @media only screen and (max-device-width: 600px) { */
-    /* .card { */
-      /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
-      /* max-width: 300px; */
-      /* width: 80%;
-      margin: auto;
-      text-align: center;
-      font-family: arial;
-      
-    } */
-
-  /* } */
  
-  
-  /* .card button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color:  #30a006;
-    text-align: center;
-    /* cursor: pointer; */
-    /* width: 100%;
-    font-size: 18px;
-  } */ 
 
   .card h3 {
     font-size: 24px;
@@ -272,13 +210,6 @@ body {
       flex-direction: row; */
   }
 
-  /* @media only screen and (max-width: 600px) {
-  #products .row{
-      display: flex;
-      flex-direction: column !important;
-    }
-
-  } */
 
  /* footer */
 

@@ -79,6 +79,12 @@ body {
     background-size: cover;
 }
 
+@media only screen and (max-device-width: 600px) { 
+    .contact {
+    min-height: 90vh;
+    }
+}
+
 .contact .content {
     max-width: 800px;
     text-align: center;
